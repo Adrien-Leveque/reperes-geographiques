@@ -19,7 +19,7 @@ function go_to_flashcard(){
 }
 
 function go_to_quiz(){
-  document.location.href="quiz.html";
+  document.location.href="quiz menu.html";
 }
 
 countries=["Maroc","Algerie","Tunisie", "Mali","République démocratique du Congo","Afrique du Sud", "Madagascar", "Egypte",

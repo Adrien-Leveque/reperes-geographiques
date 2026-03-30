@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz repères géographiques</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/quiz%20style.css">
+</head>
+<body>
+<header>
+  <h1>Repères géographiques seconde</h1>
+</header>
+
+<main>
+  <div class="menu">
+  <h2>Mods :</h2>
+
+  <div class="gamemods_container">
+    <button class="gamemods_buttons" onclick="setTimeout('start_quiz(get_countries())',110)"><span class="button_top">Trouver le nom du pays</span></button>
+    <button class="gamemods_buttons" onclick="setTimeout('go_to_map()',110)"><span class="button_top">Trouver la localisation</span></button>
+
+  </div></div>
+
+  <div class="quiz hidden">
+    <div class="image_container"><img class="quiz_img" src="" alt=""></div>
+    <form id="answer_form" onsubmit="verify_answer();return false;" >
+      <label for="answer_input">Réponse :</label>
+      <input type="text" name="answer" id="answer_input">
+    </form>
+    <h3 id="result"></h3>
+    <button class="gamemods_buttons" id="submit-button" onclick="verify_answer()"><span class="button_top">Vérifier</span></button>
+  </div>
+  <div class="quiz hidden" id="end-menu">
+    <p class="score"></p>
+    <button class="gamemods_buttons" id="restart-button" onclick="document.location.href='quiz menu.html';"><span class="button_top">Recommencer</span></button>
+
+  </div>
+
+</main>
+
+<script src="js/app.js"></script>
+<script src="js/quiz.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+.quiz{
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 5px;
+  background: #d1d1d1;
+  margin: 1em auto;
+  padding:20px;
+
+}
+
+.quiz_img{
+  max-width: 50vw;
+  max-height: 50vh;
+  min-width: 25vw;
+  min-height: 25vh;
+  margin:1em 0;
+  object-fit: contain;
+}
+
+#answer_input{
+  font-size: 1.2em;
+}
+
+#submit-button{
+  font-size: 0.8em;
+  margin: 1em auto;
+}
