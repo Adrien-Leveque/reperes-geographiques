@@ -1,0 +1,30 @@
+#map{
+  max-width:70vw;
+  max-height: 50vh;
+  border: 1px solid black;
+  transition: viewBox 0.1s ease;
+}
+
+.quiz{
+  border-radius: 5px;
+  background: #d1d1d1;
+  margin: 1em auto;
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+path:hover{
+  fill: #d1d1d1;
+}
+
+path.selected{
+  fill:red;
+}
+
+
+#submit-button{
+  margin: 1em auto;
+  width: 30vw;
+}

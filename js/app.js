@@ -22,7 +22,7 @@ function go_to_quiz(){
   document.location.href="quiz menu.html";
 }
 
-countries=["Maroc","Algerie","Tunisie", "Mali","République démocratique du Congo","Afrique du Sud", "Madagascar", "Egypte",
+const countries=["Maroc","Algérie","Tunisie", "Mali","République démocratique du Congo","Afrique du Sud", "Madagascar", "Egypte",
   "Syrie", "Irak","Iran","Israel", "Arabie saoudite", "Afghanistan", "Turquie", "Ukraine","Russie","Inde","Chine","Vietnam","Japon","Corée du Nord","Corée du Sud","Australie",
   "Etats-Unis","Canada","Mexique","Brésil","Chili","Argentine"];
 
